@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vue-testing</title>
+</head>
+<body>
+    <div id="app">
+        <form>
+          <p>
+            Important item?
+            <label>
+              <input type="checkbox" v-model="important">
+              {{ important }}
+            </label>
+          </p>
+        </form>
+      </div>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
